@@ -140,31 +140,35 @@ When the new network is ready, notice that a subnet was created for each region.
 
 ## Task 3. Explore the connectivity for VM instances 
 
-Explore the connectivity for the VM instances. 
+#### Explore the connectivity for the VM instances. 
 
-Ping both the internal and external IP addresses of your VM instances using ICMP. Then explore the effects of the firewall rules on connectivity by removing the firewall rules individually. 
+#### Ping both the internal and external IP addresses of your VM instances using ICMP.
 
-Verify connectivity for the VM instances 
+### Verify connectivity for the VM instances 
 
-The firewall rules that you created with mynetwork allow ingress SSH and ICMP traffic from within mynetwork (internal IP) and outside that network (external IP). 
+#### The firewall rules that you created with mynetwork allow ingress SSH and ICMP traffic from within mynetwork (internal IP) and outside that network (external IP). 
 
-On the Navigation menu (Navigation menu icon), click Compute Engine > VM instances. 
+29) On the Navigation menu (Navigation menu icon), click Compute Engine > VM instances. 
 Note the external and internal IP addresses for mynet-eu-vm. 
 
-For mynet-us-vm, click SSH to launch a terminal and connect. 
+30) For mynet-us-vm, click SSH to launch a terminal and connect. 
+
+ 
+![Screenshot (159)](https://github.com/user-attachments/assets/6b7dc657-60d6-451b-ad16-7ebbf8827561)
 
  
 
- 
-
-If an Authorize popup appears, click on Authorize 
+31) If an Authorize popup appears, click on Authorize 
 
  
+![Screenshot (156)](https://github.com/user-attachments/assets/04ac4725-d42e-458a-bf50-5e52e65f0602)
 
  
 
 To test connectivity to mynet-eu-vm's internal IP, run the following command, replacing mynet-eu-vm's internal IP: 
 
 ping -c 3 10.138.0.2 
+
+![Screenshot (161)](https://github.com/user-attachments/assets/21fefb01-2b91-4781-aa52-4ce4b74a2e11)
 
  
