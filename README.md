@@ -1,4 +1,17 @@
-# VPCNetwork
+# VPCNetwork and Google Compute Engine
+
+## Obejective 
+
+Google Cloud Virtual Private Cloud (VPC) provides networking functionality to Compute Engine virtual machine (VM) instances, Kubernetes Engine containers, and App Engine flexible environment.
+
+#### Task:
+-Explore the default VPC network
+
+-Create an auto mode network with firewall rules
+
+-Create VM instances using Compute Engine
+
+-Explore the connectivity for VM instances
 ## Task 1. Explore the default network 
 
 ### View the subnets 
